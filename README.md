@@ -1,6 +1,6 @@
-# USB dongle works on Ubuntu 22.04.3 LTS (jammy)
+# USB dongle works with home assistant docker image on Ubuntu 22.04.3 LTS (jammy)
 
-To get the USB dongle (
+To get the USB dongle (somebody report it as UGREEN BLUETOOTH  5.3 ) (
 ```Bus 003 Device 002: ID 10d7:b012 Actions general adapter```
 ) working on Ubuntu 22.04.3 LTS (jammy), it is necessary to install a newer kernel and the corresponding packages. Also, make sure that your Dockerfile matches the following format:
 
